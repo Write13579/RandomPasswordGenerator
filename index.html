@@ -9,24 +9,39 @@
   <body>
     <div id="all">
       <h1 id="h1">Random Password Generator</h1>
-      <input type="number" class="checkboxes" id="Length" min="1" /><label>
-        Length</label
-      ><br />
+
+      <input
+        type="number"
+        class="checkboxes"
+        id="Length"
+        value="1"
+        min="1"
+      /><label for="Length"> Length</label><br />
+
       <input type="checkbox" class="checkboxes" id="Uppercase" /><label
+        for="Uppercase"
         >Uppercase</label
       ><br />
+
       <input type="checkbox" class="checkboxes" id="Lowercase" /><label
+        for="Lowercase"
         >Lowercase</label
       ><br />
+
       <input type="checkbox" class="checkboxes" id="Numbers" /><label
+        for="Numbers"
         >Numbers</label
       ><br />
+
       <input type="checkbox" class="checkboxes" id="Symbols" /><label
+        for="Symbols"
         >Symbols</label
       ><br />
+
       <button id="submit" onclick="generatePassword()">Submit</button>
     </div>
     <br />
+
     <div id="result">
       <p>Your password:</p>
       <p id="yourPassword"></p>

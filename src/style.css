@@ -19,6 +19,11 @@ body {
 
 #result {
   text-align: center;
+  background-color: rgb(112, 112, 112);
+  margin: auto;
+  max-width: 500px;
+  padding: 8px;
+  border-radius: 15px;
 }
 
 button {
