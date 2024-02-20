@@ -1,5 +1,6 @@
 body {
   background-color: grey;
+  overflow-wrap: break-word;
 }
 
 #all {
